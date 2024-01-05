@@ -21,8 +21,9 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Catamaran", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
+
 }
 
 .no-padding {
@@ -233,7 +234,7 @@ a:focus, a:hover {
   25% {
     height: 30px;
     transform: translateY(15px);
-    background: #3498db;
+    background: #000000;
   }
   50%, 100% {
     height: 5px;
@@ -709,7 +710,7 @@ a:focus, a:hover {
   z-index: 9;
   height: 70px;
   width: 70px;
-  background: rgba(40, 171, 227, 0.5);
+  background: #720530;
   color: #fff;
   border: 0;
   line-height: 70px;
@@ -1313,13 +1314,13 @@ a:focus, a:hover {
   color: #fff;
 }
 .development-steps .step-3 {
-  background: #198dbf;
+  background: #000000;
 }
 .development-steps .step-3 h4, .development-steps .step-3 p {
   color: #fff;
 }
 .development-steps .step-4 {
-  background: #167da9;
+  background: #000000;
 }
 .development-steps .step-4 h4, .development-steps .step-4 p {
   color: #fff;
