@@ -1,4 +1,4 @@
-/**  Fix 1) service section box heights, not the same for about page 2)icons for the numbers area 3)
+/**  Fix 1) call to action section
  * WEBSITE: https://themefisher.com
  * TWITTER: https://twitter.com/themefisher
  * FACEBOOK: https://www.facebook.com/themefisher
@@ -840,19 +840,33 @@ a:focus, a:hover {
 ==================================================================*/
 .call-to-action {
   padding: 100px 0;
-  background: url("../images/call-to-action/graduate-free.jpg");
+  background: url("../images/call-to-action/graduate-free.jpg") no-repeat center center;
   background-size: cover;
   color: #fff;
 }
+
+/* Adjust padding and background properties for smaller screens */
+@media screen and (max-width: 100%) {
+  .call-to-action {
+    padding: 50px 0; /* Reduce padding for smaller screens */
+    background-image: url("../images/call-to-action/graduate-free-mobile.jpg"); /* Optional: use a different image optimized for mobile */
+    background-size: cover; /* or cover, depending on your preference */
+    background-position: top center; /* Adjust background position if necessary */
+  }
+}
+
 .call-to-action h2 {
   line-height: 1.5;
 }
+
 .call-to-action p {
   color: #fff;
 }
+
 .call-to-action .btn-main {
   margin-top: 20px;
 }
+
 
 /*=================================================================
  Call To Action 2
