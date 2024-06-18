@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const imagesDir = 'images/photos/';
 
     const images = [
-        { filename: "photo1.jpg", title: "" },
-        { filename: "photo2.png", title: "" },
+        //{ filename: "photo1.jpg", title: "" },
+        //{ filename: "photo2.png", title: "" },
         { filename: "photo3.jpg", title: "" },
         { filename: "photo4.png", title: "" },
-        { filename: "photo5.jpg", title: "" },
+        //{ filename: "photo5.jpg", title: "" },
         { filename: "photo6.png", title: "" },
         { filename: "photo7.jpg", title: "" },
         { filename: "photo8.jpg", title: "" },
@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
         { filename: "photo10.png", title: "" },
         { filename: "photo11.jpeg", title: "" },
         { filename: "photo12.jpg", title: "" },
-        { filename: "photo13.jpg", title: "" },
+        //{ filename: "photo13.jpg", title: "" },
         { filename: "photo14.png", title: "" },
-        { filename: "photo15.png", title: "" },
+        //{ filename: "photo15.png", title: "" },
         { filename: "photo16.png", title: "" },
         { filename: "photo17.jpg", title: "" },
         { filename: "photo18.jpg", title: "" },
