@@ -23,7 +23,22 @@ document.addEventListener("DOMContentLoaded", function() {
         { filename: "photo18.jpg", title: "" },
         { filename: "photo19.jpg", title: "" },
         { filename: "photo20.jpg", title: "" },
-        { filename: "photo21.jpg", title: "" }
+        { filename: "photo21.jpg", title: "" },
+        { filename: "photo23.jpg", title: "" },
+        { filename: "photo24.jpg", title: "" },
+        { filename: "photo25.jpg", title: "" },
+        { filename: "photo26.jpg", title: "" },
+        { filename: "photo27.jpg", title: "" },
+        { filename: "photo28.jpg", title: "" },
+        { filename: "photo29.jpg", title: "" },
+        { filename: "photo30.jpg", title: "" },
+        { filename: "photo31.jpg", title: "" },
+        { filename: "photo32.jpg", title: "" },
+        { filename: "photo33.jpg", title: "" },
+        { filename: "photo34.jpg", title: "" },
+        { filename: "photo35.jpg", title: "" },
+        { filename: "photo36.jpg", title: "" },
+        { filename: "photo37.jpg", title: "" },
     ];
 
     images.forEach(image => {
