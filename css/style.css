@@ -1428,10 +1428,9 @@ a:focus, a:hover {
   transform: translateY(0%);
 }
 
-/* Adjustment for Coco Wu's photo to crop higher */
+/* Adjustment for Coco Wu's photo to show full image */
 .team .team-member .member-photo img[alt="Coco"] {
-  object-fit: cover;
-  object-position: center top;
+    object-fit: contain;
 }
 
 /*=================================================================
