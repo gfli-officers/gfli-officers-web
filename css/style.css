@@ -1428,6 +1428,12 @@ a:focus, a:hover {
   transform: translateY(0%);
 }
 
+/* Adjustment for Coco Wu's photo to crop higher */
+.team .team-member .member-photo img[alt="Coco"] {
+  object-fit: cover;
+  object-position: center top;
+}
+
 /*=================================================================
   Testimonial section
 ==================================================================*/
