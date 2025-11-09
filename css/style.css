@@ -1428,11 +1428,11 @@ a:focus, a:hover {
   transform: translateY(0%);
 }
 
-/* Adjustment for Coco Wu's photo to show full image */
+/* Adjustment for Coco Wu's photo to show bottom part *
 .team .team-member .member-photo img[alt="Coco"] {
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center bottom;
 }
-
 /*=================================================================
   Testimonial section
 ==================================================================*/
